@@ -21,6 +21,7 @@ public class Controller extends HttpServlet {
 					"Voce Esqueceu de passar a tarefa");
 		}
 		tarefa = "br.com.alura.gerenciador.web."+tarefa;
+		System.out.println("teste git");
 		
 		try {
 			Class<?>tipo = Class.forName(tarefa);
